@@ -481,6 +481,7 @@ background-color: #31d0aa;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 72px 24px 24px 24px;
 }
 .button-modal-window {
     position: absolute;
@@ -498,6 +499,16 @@ background-color: #31d0aa;
     cursor: pointer;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.paragraph-modal-window {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 16px;
+}
 .button-modal-window:hover {
     background-color: #404bbf;
     border: none;
@@ -505,4 +516,66 @@ background-color: #31d0aa;
 .button-modal-window:focus {
     background-color: #404bbf;
     border: none;
+}
+.icon-button {
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.use-icon-button:hover {
+    fill: #ffffff;
+}
+.use-icon-button:focus {
+        fill: #ffffff;
+}
+
+.name-label {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: #8e8f99;
+    display: block;
+    margin-bottom: 4px;
+}
+.div-input-icon {
+    position: relative;
+}
+.user-name-input {
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 4px;
+    background-color: transparent;
+    padding-left: 38px;
+    outline: transparent;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.user-name-input:focus {
+    border-color: #4D5AE5;
+}
+
+.icon-user {
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.user-name-input:focus .icon-user {
+    fill: #4D5AE5;
+}
+
+.user-comment {
+    width: 100%;
+    height: 120px;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: rgba(46, 47, 66, 0.4);
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 4px;
+    background-color: transparent;
+    resize: none;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.user-comment:focus {
+    border-color: #4D5AE5;
 }
