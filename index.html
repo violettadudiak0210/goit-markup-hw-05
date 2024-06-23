@@ -364,49 +364,50 @@
             </div>
          </div>
     </footer>
-    <div class="container-modal-window">
-        <p class="paragraph-modal-window"></p>
-        <div class="modal-window">
-            <button type="button" class="button-modal-window">
-                <svg width="8" height="8" class="icon-button">
-                    <use href="./images/.svg#" class="use-icon-button"></use>
-                </svg>
-            </button>
-        </div>
-        <p class="paragraph-modal-window"></p>
-        <form>
-            <div class="div-form">
-                <label class="name-label" for="user-name">Name</label>
-                <div class="div-input-icon">
-                    <input id="user-name" name="user-name" type="text" class="user-name-input">
-                    <svg width="18" height="24" class="icon-user">
-                        <use href="./images/.svg#"></use>
+
+
+    <div class="modal-overlay is open">
+        <div class="modal">
+                <button type="button" class="modal-button-close">
+                    <svg width="8" height="8" class="button-close-window">
+                        <use href="./images/.svg#" class="use-icon-button"></use>
                     </svg>
-                </div>
-            </div>
+                </button>
+            <p class="paragraph-modal-window">Leave yourcontacts and we will call you back</p>
+            <form>
                 <div class="div-form">
-                    <label class="name-label" for="user-name">Phone</label>
+                    <label class="name-label" for="user-name">Name</label>
                     <div class="div-input-icon">
-                        <input name="user-name" type="text" class="user-name-input">
+                        <input id="user-name" name="user-name" type="text" class="user-name-input">
                         <svg width="18" height="24" class="icon-user">
                             <use href="./images/.svg#"></use>
                         </svg>
                     </div>
                 </div>
-                <div class="div-form">
-                    <label class="name-label" for="user-name">Email</label>
-                    <div class="div-input-icon">
-                        <input name="user-name" type="text" class="user-name-input">
-                        <svg width="18" height="24" class="icon-user">
-                            <use href="./images/.svg#"></use>
-                        </svg>
+                    <div class="div-form">
+                        <label class="name-label" for="user-name">Phone</label>
+                        <div class="div-input-icon">
+                            <input name="user-name" type="text" class="user-name-input">
+                            <svg width="18" height="24" class="icon-user">
+                                <use href="./images/.svg#"></use>
+                            </svg>
+                        </div>
                     </div>
-                </div>
-                <div class="div-form">
-                    <label class="name-label" for="user-comment">Comment</label>
-                    <textarea id="user-comment" placeholder="Text input" class="user-comment"></textarea>
-                </div>
-        </form>
+                    <div class="div-form">
+                        <label class="name-label" for="user-name">Email</label>
+                        <div class="div-input-icon">
+                            <input name="user-name" type="text" class="user-name-input">
+                            <svg width="18" height="24" class="icon-user">
+                                <use href="./images/.svg#"></use>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="div-form">
+                        <label class="name-label" for="user-comment">Comment</label>
+                        <textarea id="user-comment" placeholder="Text input" class="user-comment"></textarea>
+                    </div>
+            </form>
+        </div>
     </div>
 </body>
 </html>
