@@ -548,6 +548,7 @@ border: none;
 }
 .div-input-icon {
     position: relative;
+    margin-bottom: 16px;
 }
 .user-name-input {
     width: 100%;
