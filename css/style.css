@@ -509,8 +509,9 @@ border: none;
 }
 .user-name-input:focus + .icon-user,
 .user-name-input:hover + .icon-user {
-    fill: #404bbf;
+    fill: #ffffff;
 }
+
 .paragraph-modal-window {
     font-weight: 500;
     font-size: 16px;
@@ -570,7 +571,7 @@ border: none;
     transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.user-name-input:focus .icon-user {
+.user-name-input:focus + .icon-user {
     fill: #4D5AE5;
 }
 
@@ -589,4 +590,8 @@ border: none;
 }
 .user-comment:focus {
     border-color: #4D5AE5;
+}
+
+.div-form {
+    margin-bottom: 8px;
 }
