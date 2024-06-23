@@ -536,9 +536,8 @@ border: none;
     fill: #ffffff;
 }
 .button-close-window:focus .use-icon-button{
-        fill: #ffffff;
+    fill: #ffffff;
 }
-
 .name-label {
     font-size: 12px;
     line-height: 1.17;
