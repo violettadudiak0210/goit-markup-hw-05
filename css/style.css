@@ -621,11 +621,11 @@ color: #8e8f99;
     fill: transparent;
 
 }
-.input:checked + label > span {
-    background-color: #404bbf;
-    fill: #f4f4fd;
+.user-field:checked + .user-agree > .agree-part {
+    background-color: #404BBF;
     border: none;
-}
+    fill: #F4F4FD;
+  }
 .label-link {
     color: #4d5ae5;
 }
