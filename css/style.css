@@ -548,7 +548,7 @@ border: none;
 }
 .div-input-icon {
     position: relative;
-    margin-bottom: 16px;
+
 }
 .user-name-input {
     width: 100%;
@@ -596,4 +596,7 @@ border: none;
 
 .div-form {
     margin-bottom: 8px;
+}
+.div-form-three {
+    margin-bottom: 16px;
 }
