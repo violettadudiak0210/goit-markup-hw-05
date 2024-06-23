@@ -532,10 +532,10 @@ border: none;
 .button-close-window {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.use-icon-button:hover {
+.button-close-window:hover {
     fill: #ffffff;
 }
-.use-icon-button:focus {
+.button-close-window:focus {
         fill: #ffffff;
 }
 
@@ -572,7 +572,7 @@ border: none;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .user-name-input:focus + .icon-user {
-    fill: #4fffff;
+    fill: #4D5AE5;
 }
 
 .user-comment {
