@@ -621,7 +621,7 @@ color: #8e8f99;
     fill: transparent;
 
 }
-.user-field:checked + .user-agree > .agree-part {
+.user-field:checked + .user-privacy > .span-user-privacy {
     background-color: #404BBF;
     border: none;
     fill: #F4F4FD;
